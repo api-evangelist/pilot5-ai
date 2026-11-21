@@ -1,4 +1,4 @@
-# pilot5-ai
+# Pilot5.ai
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,123 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-pilot5-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://pilot5.ai/
+Pilot5.ai is a deliberative AI platform that provides a panel of five independent AI models to analyze high‑stakes strategic decisions. The models reason, critique each other, and converge on a defensible recommendation, preserving dissent and citations for transparency. This enables organizations to make informed, defensible choices in complex scenarios.
+
+**Areas:** AI · Decision-Making · Platform · Enterprise · Collaboration
+
+## Pilot5.ai on APIs.io
+
+Everything profiled for Pilot5.ai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/pilot5-ai/](https://apis.io/providers/pilot5-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Pilot5 MCP API](https://apis.io/apis/pilot5-ai/pilot5-mcp-api/) — API for Pilot5 MCP connector allowing integration with various AI models via REST endpoints.
+- [Pilot5.ai API](https://apis.io/apis/pilot5-ai/pilot5-ai-api/) — Pilot5.ai API as documented publicly: 4 operations. Contract generated from the documentation by API Evangelist (2026-11-21); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [GetV1ApiDeliberationsIdResponse](https://apis.io/schemas/pilot5-ai/pilot5-ai-get-v1-api-deliberations-id-response/)
+- [GetV1ApiDeliberationsIdResultResponse](https://apis.io/schemas/pilot5-ai/pilot5-ai-get-v1-api-deliberations-id-result-response/)
+- [PostHooksPilot5Request](https://apis.io/schemas/pilot5-ai/pilot5-ai-post-hooks-pilot5-request/)
+- [PostV1ApiDeliberationsRequest](https://apis.io/schemas/pilot5-ai/pilot5-ai-post-v1-api-deliberations-request/)
+- [PostV1ApiDeliberationsResponse](https://apis.io/schemas/pilot5-ai/pilot5-ai-post-v1-api-deliberations-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Pilot5 Ai Context](https://apis.io/jsonld/pilot5-ai/pilot5-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Pilot5.ai API Rules](https://apis.io/rules/pilot5-ai/pilot5-ai-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Pilot5.ai Authentication](https://apis.io/security/pilot5-ai/pilot5-ai-authentication/)
+- [Pilot5.ai Domain Security](https://apis.io/security/pilot5-ai/pilot5-ai-domain-security/)
+- [Pilot5.ai Vulnerability Disclosure](https://apis.io/security/pilot5-ai/pilot5-ai-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Pilot5.ai Plans Pricing](https://apis.io/plans/pilot5-ai/pilot5-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://pilot5.ai/)
+- [Documentation](https://pilot5.ai/docs/mcp)
+- [Getting started](https://pilot5.ai/blog/pilot5-for-india-setup)
+- [Pricing](https://pilot5.ai/pricing)
+- [Security](https://pilot5.ai/security)
+- [Terms of service](https://pilot5.ai/terms)
+- [Privacy policy](https://pilot5.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 51.2** — developing · rubric 0.27.0 · scored 2026-11-21
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 55.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 60.0 |
+
+**Agent readiness 22.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/pilot5-ai/](https://apis.io/providers/pilot5-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Pilot5.ai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/pilot5-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
